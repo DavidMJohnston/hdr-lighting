@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hdrlighting",
   "version": "${version}",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "DavidMJohnston"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/DavidMJohnston/hdr-lighting"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/hdrlighting/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.davidmjohnston.hdrlighting.HdrLighting"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hdrlighting.mixins.json"
   ],
 
   "depends": {
